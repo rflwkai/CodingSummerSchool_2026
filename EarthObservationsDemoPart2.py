@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Jan 29 17:41:33 2026
-
 @author: Refilwe Kai-Sikhakhane
 """
 # --------------------------------------------------
@@ -10,7 +8,7 @@ Created on Thu Jan 29 17:41:33 2026
 
 
 #conda install -c conda-forge xarray numpy matplotlib cartopy (shell command)
-## You can also use pip install but NOTE that It may install into a different Python environment. 
+## You can also use pip install, but NOTE that it may install into a different Python environment. 
 ## The Spyder’s kernel does not reload packages cleanly
 ## Cartopy frequently fails on Windows with pip
 
@@ -129,4 +127,5 @@ if MAKE_MAP:
         ax.set_title("Sentinel-5P NO₂ Swath data 19 May 2025")
 
     plt.show()
+
 
